@@ -1,0 +1,33 @@
+.background-wrapper, .background-wrapper * {
+    box-sizing: border-box;
+}
+.background-wrapper {
+    position: absolute;
+    inset: 0;
+}
+
+.elipse-1 {
+    background: var(--radial-gradient-yellow);
+    border-radius: 50%;
+    width: 1408px;
+    height: 1408px;
+    position: absolute;
+    left: 622px;
+    top: -1140px;
+    filter: blur(92px);
+}
+
+.elipse-2 {
+    background: var(--radial-gradient-blue);
+    border-radius: 50%;
+    width: 1397px;
+    height: 1399px;
+    position: absolute;
+    left: -220px;
+    top: -920px;
+    filter: blur(92px);
+}
+
+.App {
+    height: 220vh;
+}

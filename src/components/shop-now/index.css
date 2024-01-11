@@ -1,0 +1,20 @@
+.buy-button {
+    background: var(--Text-Night-Primary-1, #FFF);
+    backdrop-filter: blur(15px);
+    border-radius: 100px;
+    padding: 10px 14px;
+}
+
+.shop-now {
+    background: -webkit-linear-gradient(180deg, #000000fc, #4f4f4ff7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: var(--black);
+    text-shadow: 0px 0px 30px rgba(102, 204, 255, 0.20);
+    font-family: 'GraphikLc-Medium', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    white-space: nowrap;
+}

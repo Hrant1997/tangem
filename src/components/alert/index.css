@@ -1,0 +1,92 @@
+.alert {
+  position: relative;
+  margin-top: 24px;
+  background: linear-gradient(180deg, #101010 0%, var(--black) 100%);
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 835px) {
+  .alert {
+    padding-left: 8px;
+    letter-spacing: 0.048px;
+  }
+
+  
+}
+
+.mobile {
+  background-image: url(/public/menu-icon.svg);
+  width: 30px;
+  height: 30px;
+}
+
+@media only screen and (max-width: 393px) {
+  .alert .block-2:last-child, .vector, .alert .shop-and-close .buy-button {
+    display: none;
+  }
+
+  .shop-and-close .mobile {
+    display: block;
+  }
+
+  .display {
+    margin-left: -31px;
+    width: 159px;
+  }
+
+  div.card {
+    width: 100%;
+    border-radius: unset;
+    box-shadow: 0px 4px 34px 0px rgba(0, 0, 0, 0.45);
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 835px) {
+  .alert .title span:last-child, .alert .p span:last-child, .alert .close {
+    display: none;
+  }
+}
+
+
+.overlap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shop-and-close {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-right: 22px;
+}
+
+.overlap-group {
+  width: 2250px;
+  height: 1619px;
+  top: -1086px;
+  left: -220px;
+
+  position: absolute;
+}
+
+.ellipse {
+  width: 1397px;
+  height: 1399px;
+  flex-shrink: 0;
+  border-radius: 1399px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(29, 93, 199, 0.00) 0%, rgba(11, 23, 61, 0.00) 100%);
+  filter: blur(92px);
+}
+.ellipse2 {
+  width: 1408px;
+  height: 1408px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: radial-gradient(50% 50% at 50% 50%, #FAE571 0%, rgba(11, 14, 23, 0.00) 100%);
+  filter: blur(92px);
+  position: absolute;
+  right: 0;
+  top: -200px;
+}

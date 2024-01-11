@@ -1,0 +1,49 @@
+:root {
+  --white: #FFFFFF;
+  --white-e: #FEFEFE;
+  --white-30: #FFFFFF4D;
+  --white-15: #FFFFFF26;
+  --white-10: #FFFFFF1A;
+
+  --black: #0B0B0B;
+  --gray: #6C6C70;
+  --yellow: #D7A830;
+  --yellow-60: #D2981A99;
+  
+  --linear-gradient-white: #FFFFFF, #FFFFFF00;
+  --linear-gradient-black: #101010, #0B0B0B;
+  --linear-gradient-yellow: #7D5317, #EDDF95;
+
+  --radial-gradient-blue: radial-gradient(closest-side, #1D5DC7, #0B173D00);
+  --radial-gradient-yellow: radial-gradient(closest-side,  #FAE571, #0B0E1700);
+ 
+  --text-nightprimary: rgba(255, 255, 255, 1);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.text-yellow-bolt {
+  color: var(--yellow);
+  font-family: 'GraphikLc-Semibold', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.64px;
+}
+
+.text-weight-600 {
+  font-weight: 600;
+}
